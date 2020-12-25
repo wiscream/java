@@ -1,0 +1,83 @@
+.container{
+    width: 1200px;
+    color: #444444;
+}
+.header{
+    margin: 8px;
+    display: block;
+}
+.shop{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item{
+    border: 1px solid #ebe9e9;
+    display: block;
+    margin: 8px;
+    overflow: hidden;
+}
+.item_img{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.sku,.item_name{
+    width: 300px;
+    margin: 8px;
+    flex-direction: column;
+}
+.sku,.box_left,.item_checkbox,.item_img,.item_name{
+    float: left;
+}
+.item_img img{
+    width: 100px;
+    height: 100px;
+}
+.box_right{
+    width: 350px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+.box_right_wrapper{
+    position: absolute;
+    top: 40px;
+}
+.box_left{
+    width: 810px;
+    height: 100px;
+}
+.price,.num_control, .item_price_total, .operation{
+    margin-left: 22px;
+    float: left;
+}
+.price_1{
+    color: rgb(194,194,194);
+    text-decoration:line-through;
+}
+.num{
+    width: 14px;
+    border: 1px solid #000000;
+}
+.num_minus,.num_plus{
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    display:inline-block;
+    font-size: 18px;
+    background-color: #b0b0b0;
+
+}
+.checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.checked_num,.total_price{
+    font-size: 25px;
+    color: red;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+

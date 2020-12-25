@@ -1,0 +1,26 @@
+ .clearfix::before,.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+ }
+body{
+   font: 14px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,sans-serif;
+	color:#333;
+	min-width: 1200px;
+}
+.w{
+	width: 1200px;
+	margin:0 auto;
+}
+.container{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
+
